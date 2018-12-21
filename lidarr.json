@@ -8,7 +8,9 @@
 
   "pkgs": [
 
-    "devel/monodevelop"
+    "ftp/wget",
+    "databases/sqlite3",
+    "lang/mono"
    
       ],
 
