@@ -20,3 +20,6 @@ This will install [MineOS](https://minecraft.codeemo.com/mineoswiki/index.php?ti
 
 ### lidarr.json
 This will install [Lidarr](https://github.com/lidarr/Lidarr), a music collection manager for Usenet and BitTorrent users.
+
+### jackett.json
+This will install [Jackett](https://github.com/Jackett/Jackett), a proxy server: it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries.
