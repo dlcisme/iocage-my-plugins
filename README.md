@@ -23,3 +23,6 @@ This will install [Lidarr](https://github.com/lidarr/Lidarr), a music collection
 
 ### jackett.json
 This will install [Jackett](https://github.com/Jackett/Jackett), a proxy server: it translates queries from apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries.
+
+### nginx.json
+This will install [Nginx](https://nginx.com), a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache
