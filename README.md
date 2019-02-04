@@ -29,3 +29,6 @@ This will install [Nginx](https://nginx.com), a web server which can also be use
 
 ### tautulli.json
 This will install [Tautulli](https://github.com/Tautulli/Tautulli), an application for monitoring, analytics and notifications for Plex Media Server.
+
+### dockett.json
+This will install a server that will allow you to backup files using an rsync script (also included).
