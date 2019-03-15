@@ -3,7 +3,9 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/dlcisme/iocage-plugin-nginx.git",
   "pkgs": [
-    "www/nginx"
+    "www/nginx",
+    "security/py-certbot",
+    "security/py27-certbot-nginx"
   ],
 	
   "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
