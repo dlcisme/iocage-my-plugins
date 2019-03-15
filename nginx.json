@@ -4,8 +4,8 @@
   "artifact": "https://github.com/dlcisme/iocage-plugin-nginx.git",
   "pkgs": [
     "www/nginx",
-    "security/py27-certbot",
-    "security/py27-certbot-nginx"
+    "security/py-certbot",
+    "security/py-certbot-nginx"
   ],
 	
   "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
