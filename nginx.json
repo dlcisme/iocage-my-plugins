@@ -4,7 +4,7 @@
   "artifact": "https://github.com/dlcisme/iocage-plugin-nginx.git",
   "pkgs": [
     "www/nginx",
-    "security/py-certbot",
+    "security/py27-certbot",
     "security/py27-certbot-nginx"
   ],
 	
