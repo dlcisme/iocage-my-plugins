@@ -8,7 +8,7 @@
     "security/py27-certbot-nginx"
   ],
 	
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
  
   "fingerprints": {
 	  "iocage-plugins": [
