@@ -5,7 +5,8 @@
   "pkgs": [
     "ftp/wget",
     "databases/sqlite3",
-    "lang/mono"
+    "lang/mono",
+    "audio/chromaprint"
      ],
 
   "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
