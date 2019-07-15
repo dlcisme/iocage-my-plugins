@@ -3,7 +3,7 @@
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/dlcisme/iocage-plugin-overviewer.git",
   "pkgs": [
-    "graphics/py-pillow";
+    "graphics/py-pillow",
     "math/py-numpy"
   ],
 	
