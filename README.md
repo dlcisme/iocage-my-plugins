@@ -41,3 +41,6 @@ This will install [UrBackup](https://www.urbackup.org) server, a client/server b
 
 ### dockett.json
 This will install a server that will allow you to backup files using an rsync script (also included).
+
+### overviewer.json
+This will install [Overviewer](https://overviewer.org), a command-line tool for rendering high-resolution maps of Minecraft worlds. It generates a set of static html and image files and uses Leaflet to display a nice interactive map.
