@@ -23,6 +23,25 @@ iocage fetch -P -n dockett.json vnet=on dhcp=on bpf=yes
 ## Plugin manifest files
 ### mineos.json
 This will install [MineOS](https://minecraft.codeemo.com/mineoswiki/index.php?title=MineOS-node_(pkg_add)), an easy way to create, host and manage Minecraft servers via a Web-based User Interface.
+#### NOTE: If moving servers don't forget to copy the mineos.conf file.  Location should be /etc/mineos.conf.
+
+**mineos.conf** file should look like:
+```
+use_https = false
+socket_host = '0.0.0.0'
+#socket_port = 8443
+#base_directory = '/var/games/minecraft'
+socket_port = 8080
+base_directory = '/app-data/minecraft'
+
+ssl_private_key = '/etc/ssl/certs/mineos.key'
+ssl_certificate = '/etc/ssl/certs/mineos.crt'
+ssl_cert_chain = ''
+
+webui_locale = 'en_US'
+additional_logfiles = ''
+optional_columns = ''
+```
 
 ### lidarr.json
 This will install [Lidarr](https://github.com/Lidarr/Lidarr), a music collection manager for Usenet and BitTorrent users.
