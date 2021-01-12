@@ -1,16 +1,21 @@
 {
-  "name": "lidarr",                                                             
-  "release": "11.2-RELEASE",
+  "name": "lidarr",
+  "plugin_schema": "2",
+  "release": "12.2-RELEASE",
   "artifact": "https://github.com/dlcisme/iocage-plugin-lidarr.git",
+  
+  "properties": {
+  },
+
   "pkgs": [
     "ftp/wget",
     "databases/sqlite3",
     "lang/mono",
     "audio/chromaprint"
-     ],
-
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
-
+  ],
+	
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+	
   "fingerprints": {
 	  "plugin-default": [
 		  {
@@ -19,5 +24,8 @@
 	      }
 	    ]
     },
-    "official": false
+  
+  "revision": "0"	
+	
+  "official": false
 }
