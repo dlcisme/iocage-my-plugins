@@ -8,10 +8,8 @@
   },
 
   "pkgs": [
-    "ftp/wget",
-    "databases/sqlite3",
-    "lang/mono",
-    "audio/chromaprint"
+    "editors/nano",
+    "net-p2p/lidarr"
   ],
 	
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
