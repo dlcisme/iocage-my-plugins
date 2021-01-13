@@ -5,6 +5,9 @@
   "artifact": "https://github.com/dlcisme/iocage-plugin-lidarr.git",
   
   "properties": {
+    "vnet": "on",
+    "bpf": "on",
+    "dhcp": "on"
   },
 
   "pkgs": [
