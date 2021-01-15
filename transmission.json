@@ -2,7 +2,7 @@
   "name": "transmission",
   "plugin_schema": "2",
   "release": "12.2-RELEASE",
-  "artifact": "https://github.com/dlcisme/iocage-plugin-lidarr.git",
+  "artifact": "https://github.com/dlcisme/iocage-plugin-transmission.git",
   
   "properties": {
     "vnet": "on",
