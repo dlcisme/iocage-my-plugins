@@ -12,6 +12,7 @@
 
   "pkgs": [
     "editors/nano",
+
     "net-p2p/lidarr"
   ],
 	
