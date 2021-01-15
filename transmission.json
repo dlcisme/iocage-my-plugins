@@ -13,7 +13,7 @@
   "pkgs": [
     "editors/nano",
 
-    "net-p2p/transmission-deamon",
+    "net-p2p/transmission-daemon",
     "www/transmission-web"
   ],
 	
