@@ -7,7 +7,8 @@
   "properties": {
     "vnet": "on",
     "bpf": "on",
-    "dhcp": "on"
+    "dhcp": "on",
+    "plugin_name": "transmission"
   },
 
   "pkgs": [
