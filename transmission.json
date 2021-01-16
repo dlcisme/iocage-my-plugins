@@ -9,7 +9,7 @@
     "bpf": "on",
     "dhcp": "on",
     "plugin_name": "transmission",
-    "plugin_repository": "https://github.com/dlcisme/transmission.json"
+    "plugin_repository": "https://github.com/dlcisme/iocage-plugin-transmission.git"
   },
 
   "pkgs": [
