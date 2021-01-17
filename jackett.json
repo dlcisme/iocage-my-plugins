@@ -13,7 +13,8 @@
   "pkgs": [
     "editors/nano",
 
-    "net-p2p/jackett"
+    "net-p2p/jackett",
+    "converters/libiconv"
   ],
 	
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",	
