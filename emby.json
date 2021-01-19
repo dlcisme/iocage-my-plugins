@@ -1,0 +1,55 @@
+{
+  "name": "emby",
+  "plugin_schema": "2",
+  "release": "12.2-RELEASE",
+  "artifact": "https://github.com/dlcisme/iocage-plugin-emby.git
+    
+  "properties": {
+    "vnet": "on",
+    "bpf": "on",
+    "dhcp": "on",
+    "allow_raw_sockets": "on"
+  },
+   
+  "pkgs": [
+      "nano",
+  
+      "emby-server",
+      "ffmpeg",
+      "mono",
+      "libass",
+      "fontconfig",
+      "freetype2",
+      "fribidi",
+      "gnutls",
+      "iconv",
+      "opus",
+      "sqlite3",
+      "libtheora",
+      "libva",
+      "libvpx",
+      "libvorbis",
+      "webp",
+      "libx264",
+      "x265",
+      "dav1d",
+      "libzvbi",
+      "libraw",
+      "ImageMagick6"
+    ],
+    
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+            }
+        ]
+    },
+    
+    "revision": "0",
+    
+    "official": false
+}
