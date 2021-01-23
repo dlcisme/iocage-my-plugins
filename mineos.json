@@ -15,11 +15,11 @@
    },
 
   "pkgs": [
-    "sysutils/py37-rdiff-backup",
+    "sysutils/py-rdiff-backup",
     "sysutils/screen",
     "net/rsync",
     "devel/gmake",
-    "devel/git-lite",
+    "git-lite",
     "lang/python37",
     "www/node",
     "www/npm",
