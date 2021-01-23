@@ -15,17 +15,17 @@
    },
 
   "pkgs": [
-    "sysutils/py-rdiff-backup",
-    "sysutils/screen",
-    "net/rsync",
-    "devel/gmake",
+    "py37-rdiff-backup",
+    "screen",
+    "rsync",
+    "gmake",
     "git-lite",
-    "lang/python37",
-    "www/node",
-    "www/npm",
-    "java/openjdk11-jre",
-    "ftp/wget",
-    "shells/bash"
+    "python37",
+    "node",
+    "npm",
+    "openjdk11-jre",
+    "wget",
+    "bash"
    ],
 
   "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
