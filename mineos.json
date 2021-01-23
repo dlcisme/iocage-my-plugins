@@ -1,29 +1,34 @@
 {
-  "name": "mineos",                                                             
-  "release": "11.2-RELEASE",
+  "name": "mineos",
+  "plugin_schema": "2",
+  "release": "12.2-RELEASE",
   "artifact": "https://github.com/dlcisme/iocage-plugin-mineos.git",
+  
   "properties": { 
     "mount_procfs":"1",
     "mount_linprocfs":"1",
     "allow_raw_sockets":"1",
-    "boot":"on"
-      },
+    "boot":"on",
+    "vnet": "on",
+    "bpf": "on",
+    "dhcp": "on"
+   },
 
   "pkgs": [
-    "sysutils/rdiff-backup",
+    "sysutils/py37-rdiff-backup",
     "sysutils/screen",
     "net/rsync",
     "devel/gmake",
     "devel/git-lite",
-    "lang/python2",    
-    "www/node8",
-    "www/npm-node8",
-    "java/openjdk8-jre",
+    "lang/python37",
+    "www/node",
+    "www/npm",
+    "java/openjdk11-jre",
     "ftp/wget",
     "shells/bash"
-      ],
+   ],
 
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
 
   "fingerprints": {
 	  "plugin-default": [
@@ -34,5 +39,7 @@
 	    ]
     },
 
+    "revision: "0",
+  
     "official": false
 }
