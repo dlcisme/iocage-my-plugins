@@ -1,7 +1,15 @@
 {
   "name": "overviewer",
-  "release": "11.2-RELEASE",
+	"plugin_schema": "2",
+  "release": "12.2-RELEASE",
   "artifact": "https://github.com/dlcisme/iocage-plugin-overviewer.git",
+  
+  "properties": {
+    "vnet": "on",
+    "bpf": "on",
+    "dhcp": "on"
+  },
+  
   "pkgs": [
     "editors/nano",	  
     "devel/git",	  
@@ -10,7 +18,7 @@
     "math/py-numpy"
   ],
 	
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
  
   "fingerprints": {
 	  "iocage-plugins": [
@@ -20,5 +28,8 @@
 	          }
 	   ]
    },
-  "official": false
+  
+  "revision": "0",	
+  
+  "official": "false"
 }
